@@ -265,35 +265,46 @@ body {
 
 .featured-collections {
     background-color: #F9F8FE;
-    padding: 40px 20px;
+    padding: 20px;
+    display: flex;
     text-align: center;
+    align-items: flex-start;
+    gap: 20px;
+    
 }
 
 .section-title {
     font-size: 24px;
     color: #474747;
     margin-bottom: 20px;
+    text-align: left;
+    font-weight: bold;
+    width: 20%;
 }
 
 .featured-items {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     gap: 20px;
-    flex-wrap: wrap; 
+    width: 75%;
+    flex-wrap: wrap;
 }
 
 .featured-item {
     background-color:#D8E3F2;
-    border-radius: 1px;
+    border-radius: 10px;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
     padding: 20px;
-    width: 250px;
+    width:calc(33.33% - 13.33px);
     text-align: center;
     transition: transform 0.3s ease;
+    margin-bottom: 20px;
+    /*flex: 1;*/
 }
 
 .featured-item:hover {
     transform: translateY(-5px);
+    box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.2);
 }
 
 .discount-tag {
@@ -309,29 +320,32 @@ body {
 
 .featured-image {
     width: 100%;
-    height: 200px;
+    height: auto;
     margin-bottom: 15px;
+    border-radius: 8px;
 }
 
 .featured-title {
     font-size: 18px;
     color: #474747;
     margin-bottom: 10px;
+    font-weight: bold;
 }
 
 .featured-button {
-    background-color: #C92071;
+    background-color: #e91e63;
     color: #fff;
     padding: 10px 20px;
     border: none;
-    border-radius: 5px;
+    border-radius: 20px;
     cursor: pointer;
     font-size: 14px;
     text-transform: uppercase;
 }
 
 .featured-button:hover {
-    background-color: #A81A5B;
+    background-color: #fff;
+    color: #e91e63;
 }
 
 /* ---------- Segunda seção: Categorias em destaque ---------- */
@@ -710,12 +724,13 @@ footer div:last-child div {
         margin-left: 0;
     }
     .featured-items {
-        flex-direction: column; 
+        flex-direction: column;
         align-items: center;
     }
 
     .featured-item {
         width: 90%; 
+        max-width: 300px;
     }
 
     .featured-image {
