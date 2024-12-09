@@ -1,0 +1,6 @@
+fiz alguns ajustes nos indicados do carrossel
+alinhamento dos nomes das seções 
+refiz a logica do carrossel, mais ainda falta algumas coisas
+copiei o leyout para a segunda pagina  
+fechei algumas tags que estavam abertas no html 
+yan gustf 09/12/2024
