@@ -4,3 +4,8 @@ refiz a logica do carrossel, mais ainda falta algumas coisas
 copiei o layout para a segunda pagina  
 fechei algumas tags que estavam abertas no html 
 yan gustf 09/12/2024
+
+
+boa noite galera!, fiz algumas modificacoes na pagina "productlsitdesign" como centralizaçao e ajuste de tamanhos, 
+e tambem subi a 3 pagina "page-product" que estava faltando, tem algums detalhes que ainda faltam,
+ mas esta quase finalizado essa primeira parte.
