@@ -424,13 +424,6 @@ Mexi no .featured-item, .featured-items e .featured-items div
     padding: 20px;
   }
   
-  .div-products-title {
-    width: 776px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  
   .products-price {
     display: flex;
     gap: 8px;
